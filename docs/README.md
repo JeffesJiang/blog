@@ -3,7 +3,7 @@ home: true
 heroText: 前端学习成长历程
 tagline: 前端成长之路
 actions:
-- text: 项目简介
+- text: 简介
   link: /guide/
   type: primary
 features:
