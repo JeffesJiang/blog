@@ -1,9 +1,11 @@
 ---
 home: true
-heroText: 欢迎来到德莱联盟
-tagline: 德莱联盟
-actionText: 快速加入 →
-actionLink: /guide/
+heroText: 前端学习成长历程
+tagline: 前端成长之路
+actions:
+- text: 项目简介
+  link: /guide/
+  type: primary
 features:
 - title: 学习知识
   details: 在这里你可以学到基础的和进阶的语言或者框架知识。
@@ -11,5 +13,6 @@ features:
   details: 可以看到前沿的技术方案尝鲜。
 - title: 提高能力
   details: 有助于提升个人的自我能力。
-footer: MIT Licensed | Copyright © 2020-present Jeffes Jiang
+footer: <p>MIT Licensed | Copyright © 2020-present Jeffes Jiang</p><a herf='https://beian.miit.gov.cn/' target='_blank'>苏ICP备19001993号-1</a>
+footerHtml: true
 ---

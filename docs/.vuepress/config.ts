@@ -5,12 +5,12 @@ export default defineUserConfig<DefaultThemeOptions>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '姜金甫的个人网站',
+      title: '前端学习成长历程',
       description: '姜金甫的个人网站，前端学习，算法学习，GIS，Mapbox学习，Webgl,three.js',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'Jinfu Jiang Website',
+      title: 'FRONT END LEARNING GROWTH PROCESS',
       description: '姜金甫的个人网站，前端学习，算法学习，GIS，Mapbox学习，Webgl,three.js',
     }
   },
