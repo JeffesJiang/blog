@@ -1,3 +1,57 @@
 import type {SidebarConfig} from '@vuepress/theme-default'
 
-export const zh: SidebarConfig = []
+export const zh: SidebarConfig = {
+  '/guide/': [
+    {
+      text: '指南',
+      link: '/guide/',
+    }
+  ],
+  '/gis/': [
+    {
+      text: 'GIS',
+      children: [
+        {
+          text: '介绍',
+          link: '/gis/',
+        },
+        {
+          text: 'mapbox',
+          link: '/gis/mapbox.md',
+        },
+      ]
+    }
+  ],
+  '/front-end/': [
+    {
+      text: '入门',
+      link: '/front-end/',
+    },
+    {
+      text: 'JS',
+      children: [
+        {
+          text: 'JS基础',
+          link: '/front-end/js/base.md',
+        },
+        {
+          text: 'JS进阶',
+          link: '/front-end/js/advanced.md',
+        },
+      ]
+    },
+    {
+      text: 'TS',
+      children: [
+        {
+          text: '基础',
+          link: '/front-end/ts/base.md',
+        },
+        {
+          text: 'JS进阶',
+          link: '/front-end/ts/advanced.md',
+        },
+      ]
+    }
+  ]
+}

@@ -22,7 +22,11 @@ export default defineUserConfig<DefaultThemeOptions>({
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
 
+        // navbar
         navbar: navbar.zh,
+
+        // sidebar
+        sidebar: sidebar.zh,
 
         repo: 'https://github.com/JeffesJiang/blog',
         editLink: false
