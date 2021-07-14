@@ -44,11 +44,11 @@ export const zh: SidebarConfig = {
       text: 'TS',
       children: [
         {
-          text: '基础',
+          text: 'TS基础',
           link: '/front-end/ts/base.md',
         },
         {
-          text: 'JS进阶',
+          text: 'TS进阶',
           link: '/front-end/ts/advanced.md',
         },
       ]
