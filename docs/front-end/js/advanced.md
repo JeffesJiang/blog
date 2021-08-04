@@ -42,7 +42,9 @@ obj.__proto__ === Object.getPrototypeOf(obj)
 
 ```
 
-### 原型链示意图
+### 原型链
+
+示意图
 
 ![Javascript _Object_Layout](/images/js/Javascript%20_Object_Layout.png)
 
@@ -53,3 +55,5 @@ obj.__proto__ === Object.getPrototypeOf(obj)
  因为原型对象本身是普通对象
  */
 ```
+
+## 事件循环

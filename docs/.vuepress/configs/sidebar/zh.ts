@@ -30,14 +30,8 @@ export const zh: SidebarConfig = {
     {
       text: 'JS',
       children: [
-        {
-          text: 'JS基础',
-          link: '/front-end/js/base.md',
-        },
-        {
-          text: 'JS进阶',
-          link: '/front-end/js/advanced.md',
-        },
+        '/front-end/js/base.md',
+        '/front-end/js/advanced.md'
       ]
     },
     {
