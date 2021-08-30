@@ -47,5 +47,11 @@ export const zh: SidebarConfig = {
         },
       ]
     }
+  ],
+  '/docker/': [
+    {
+      text: 'Docker',
+      link: '/docker/'
+    }
   ]
 }

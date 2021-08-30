@@ -32,5 +32,6 @@ export const zh: NavbarConfig = [
       {text: 'mapbox', link: '/gis/mapbox.md'},
     ]
   },
-  {text: 'Webgl', link: '/webgl/'}
+  {text: 'Webgl', link: '/webgl/'},
+  {text: 'Docker', link: '/docker/'}
 ]
