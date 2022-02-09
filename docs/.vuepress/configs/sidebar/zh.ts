@@ -7,25 +7,12 @@ export const zh: SidebarConfig = {
       link: '/guide/',
     }
   ],
-  '/gis/': [
-    {
-      text: 'GIS',
-      children: [
-        {
-          text: '介绍',
-          link: '/gis/',
-        },
-        {
-          text: 'mapbox',
-          link: '/gis/mapbox.md',
-        },
-      ]
-    }
-  ],
   '/front-end/': [
     {
       text: '入门',
-      link: '/front-end/',
+      children: [
+        '/front-end/introduction'
+      ]
     },
     {
       text: 'JS',
@@ -37,14 +24,29 @@ export const zh: SidebarConfig = {
     {
       text: 'TS',
       children: [
-        {
-          text: 'TS基础',
-          link: '/front-end/ts/base.md',
-        },
-        {
-          text: 'TS进阶',
-          link: '/front-end/ts/advanced.md',
-        },
+        '/front-end/ts/base.md',
+        '/front-end/ts/advanced.md'
+      ]
+    },
+    {
+      text: 'Vue',
+      children: [
+        '/front-end/vue/'
+      ]
+    }
+  ],
+  '/network/': [
+    {
+      text: '网络',
+      link: '/network/',
+    }
+  ],
+  '/gis/': [
+    {
+      text: 'GIS',
+      children: [
+        '/gis/',
+        '/gis/mapbox.md'
       ]
     }
   ],

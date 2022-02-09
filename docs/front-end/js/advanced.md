@@ -46,7 +46,14 @@ obj.__proto__ === Object.getPrototypeOf(obj)
 
 示意图
 
-![Javascript _Object_Layout](/images/js/Javascript%20_Object_Layout.png)
+![Javascript _Object_Layout](../../.vuepress/public/images/js/javascript_object_layout.png)
+
+### 原型底层实现顺序
+
+首先：js中先创建的是Object.prototype这个原型对象。  
+然后：在这个原型对象的基础之上创建了Function.prototype这个原型对象。  
+其次：通过这个原型对象创建出来Function这个函数。   
+最后: 又通过Function这个函数创建出来之后，Object（）这个对象。
 
 ```js
 /*
@@ -56,4 +63,9 @@ obj.__proto__ === Object.getPrototypeOf(obj)
  */
 ```
 
+## 继承
+
+###     
+
 ## 事件循环
+

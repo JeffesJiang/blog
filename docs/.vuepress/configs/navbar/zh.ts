@@ -7,29 +7,39 @@ export const zh: NavbarConfig = [
     children: [
       {
         text: '入门',
-        link: '/front-end/',
+        children: [
+          '/front-end/introduction/'
+        ]
       },
       {
         text: 'JS',
         children: [
-          {text: 'js基础', link: '/front-end/js/base.md'},
-          {text: 'js进阶', link: '/front-end/js/advanced.md'}
+          '/front-end/js/base.md',
+          '/front-end/js/advanced.md'
         ]
       },
       {
         text: 'TS',
         children: [
-          {text: 'ts基础', link: '/front-end/ts/base.md'},
-          {text: 'ts进阶', link: '/front-end/ts/advanced.md'}
+          '/front-end/ts/base.md',
+          '/front-end/ts/advanced.md'
+        ]
+      },
+      {
+        text: 'Vue',
+        children: [
+          '/front-end/vue/'
         ]
       }
     ]
   },
+  {text: '网络', link: '/network/'},
   {text: '算法', link: '/algorithm/'},
   {
     text: 'GIS',
     children: [
-      {text: 'mapbox', link: '/gis/mapbox.md'},
+      '/gis/',
+      '/gis/mapbox.md'
     ]
   },
   {text: 'Webgl', link: '/webgl/'},
