@@ -13,6 +13,6 @@ features:
   details: 可以看到前沿的技术方案尝鲜。
 - title: 提高能力
   details: 有助于提升个人的自我能力。
-footer: <p>MIT Licensed | Copyright © 2020-present Jeffes Jiang</p><a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备19001993号-1</a>
+footer: <p>MIT Licensed | Copyright © 2020-present Jeffes Jiang</p>
 footerHtml: true
 ---
