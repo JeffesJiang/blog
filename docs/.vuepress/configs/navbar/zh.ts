@@ -12,6 +12,18 @@ export const zh: NavbarConfig = [
         ]
       },
       {
+        text: 'HTML',
+        children: [
+          '/front-end/html',
+        ]
+      },
+      {
+        text: 'CSS',
+        children: [
+          '/front-end/css',
+        ]
+      },
+      {
         text: 'JS',
         children: [
           '/front-end/js/base.md',
@@ -29,6 +41,12 @@ export const zh: NavbarConfig = [
         text: 'Vue',
         children: [
           '/front-end/vue/'
+        ]
+      },
+      {
+        text: '性能',
+        children: [
+          '/front-end/performance/'
         ]
       }
     ]
