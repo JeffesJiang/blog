@@ -48,6 +48,12 @@ export const zh: NavbarConfig = [
         children: [
           '/front-end/performance/'
         ]
+      },
+      {
+        text: '面试',
+        children: [
+          '/front-end/interview/'
+        ]
       }
     ]
   },

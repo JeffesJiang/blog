@@ -51,6 +51,12 @@ export const zh: SidebarConfig = {
       children: [
         '/front-end/performance/'
       ]
+    },
+    {
+      text: '面试',
+      children: [
+        '/front-end/interview/'
+      ]
     }
   ],
   '/network/': [
