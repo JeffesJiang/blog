@@ -5,56 +5,16 @@ export const zh: NavbarConfig = [
   {
     text: '前端', link: '/front-end/',
     children: [
-      {
-        text: '入门',
-        children: [
-          '/front-end/introduction/'
-        ]
-      },
-      {
-        text: 'HTML',
-        children: [
-          '/front-end/html',
-        ]
-      },
-      {
-        text: 'CSS',
-        children: [
-          '/front-end/css',
-        ]
-      },
-      {
-        text: 'JS',
-        children: [
-          '/front-end/js/base.md',
-          '/front-end/js/advanced.md'
-        ]
-      },
-      {
-        text: 'TS',
-        children: [
-          '/front-end/ts/base.md',
-          '/front-end/ts/advanced.md'
-        ]
-      },
-      {
-        text: 'Vue',
-        children: [
-          '/front-end/vue/'
-        ]
-      },
-      {
-        text: '性能',
-        children: [
-          '/front-end/performance/'
-        ]
-      },
-      {
-        text: '面试',
-        children: [
-          '/front-end/interview/'
-        ]
-      }
+      '/front-end/introduction/',
+      '/front-end/html',
+      '/front-end/css',
+      '/front-end/js/base.md',
+      '/front-end/js/advanced.md',
+      '/front-end/ts/base.md',
+      '/front-end/ts/advanced.md',
+      '/front-end/vue/',
+      '/front-end/performance/',
+      '/front-end/interview/'
     ]
   },
   {text: '网络', link: '/network/'},
@@ -62,7 +22,6 @@ export const zh: NavbarConfig = [
   {
     text: 'GIS',
     children: [
-      '/gis/',
       '/gis/mapbox.md'
     ]
   },

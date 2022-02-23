@@ -2,7 +2,9 @@
 
 ---
 
-##### 扁平数据转tree
+## 树
+
+### 扁平数据转tree
 
 > 背景：2021-07-13 早班地铁看掘金文章 [链接](https://juejin.cn/post/6983904373508145189)
 
@@ -52,23 +54,23 @@ let arr = [
 
 ```javascript
 function arrToTree(arr) {
-    const result = []
-    const temMap = new Map();
+  const result = []
+  const temMap = new Map();
 
-    arr.forEach(v => {
-        temMap.set(v.id, {...v, children: []})
-    })
+  arr.forEach(v => {
+    temMap.set(v.id, {...v, children: []})
+  })
 
-    temMap.forEach((v, k, m) => {
-        if (v.pid === 0) {
-            result.push(v)
-        } else {
-            if (temMap.has(v.pid)) {
-                temMap.get(v.pid).children.push(v);
-            }
-        }
-    })
+  temMap.forEach((v, k, m) => {
+    if (v.pid === 0) {
+      result.push(v)
+    } else {
+      if (temMap.has(v.pid)) {
+        temMap.get(v.pid).children.push(v);
+      }
+    }
+  })
 
-    return result;
+  return result;
 }
 ```
