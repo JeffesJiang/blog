@@ -95,20 +95,21 @@ function throttleTimeout(func, wait) {
 浅拷贝：
 
 数组：
+
 1. Array.concat()
 2. Array.slice()
 
 对象：
+
 1. Object.assign()
 
 深拷贝：
 
 通用
+
 ```javascript
 JSON.parse(JSON.stringify())
 ```
-
-
 
 ## 网络
 
@@ -128,7 +129,7 @@ JSON.parse(JSON.stringify())
 UDP（传输层）:
 
 1. 面向无连接
-2. 有单播，多播，广播的功能
+2. 有单播，多播，广播的功能5
 3. UDP是面向报文的
 4. 不可靠性
 
