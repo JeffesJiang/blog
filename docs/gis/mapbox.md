@@ -1,11 +1,11 @@
-# 简介
+# mapbox
 
 > mapbox官网 [国内](http://www.mapbox.cn/) | [国外](https://www.mapbox.com/)
 > mapbox是一款基于webgl开发打造的高效地图框架，提供了大量api为你的应用添加丰富的功能。
 
 备注：国外网站访问速度稍微慢一些，国外官网可以申请账号，提供一定额度的免费API服务，国内官网部分中文，文档不全，更新速度慢很多
 
-# 安装使用
+## 安装使用
 
 1. `npm i mapbox-gl`
 2. `import mapboxgl from 'mapbox-gl';`
@@ -48,15 +48,15 @@ const map = new mapboxgl.Map({
 }
 ```
 
-# 静态资源部署
+## 静态资源部署
 
-## 方案一：在线方式
+### 方案一：在线方式
 
 使用官网提供的accessToken可以享受官方提供的静态服务  
 使用`option`对象的`style`可以使用很多官方提供的基础服务  
 官方还提供了在线的自定义工具满足您的定制需求
 
-## 方案二：离线方式
+### 方案二：离线方式
 
 本地化开发[官方文档](https://docs.mapbox.com/mapbox-gl-js/style-spec/)
 
@@ -82,9 +82,9 @@ const map = new mapboxgl.Map({
 * sources： mapbox地图使用的地图服务资源定义。
 * layers： mapbox地图使用的图层定义。
 
-# GeoJson数据讲解(地图图层最重要的部分数据来源)
+## GeoJson数据讲解(地图图层最重要的部分数据来源)
 
-## 前言
+### 前言
 
 > 技术标准[点击这里](https://geojson.org/)
 
