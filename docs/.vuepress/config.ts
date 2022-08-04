@@ -1,8 +1,7 @@
-import {defineUserConfig} from 'vuepress';
-import type {DefaultThemeOptions} from 'vuepress';
+import {defineUserConfig, defaultTheme} from 'vuepress';
 import {navbar, sidebar} from './configs'
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -18,26 +17,27 @@ export default defineUserConfig<DefaultThemeOptions>({
     }
   },
 
-  themeConfig: {
-    locales: {
-      '/': {
-        selectLanguageName: '简体中文',
-        selectLanguageText: '选择语言',
+  theme: defaultTheme({
+      locales: {
+        '/': {
+          selectLanguageName: '简体中文',
+          selectLanguageText: '选择语言',
 
-        // navbar
-        navbar: navbar.zh,
+          // navbar
+          navbar: navbar.zh,
 
-        // sidebar
-        sidebar: sidebar.zh,
+          // sidebar
+          sidebar: sidebar.zh,
 
-        repo: 'https://github.com/JeffesJiang/blog',
-        editLink: false
+          repo: 'https://github.com/JeffesJiang/blog',
+          editLink: false
 
-      },
-      '/en/': {
-        selectLanguageName: 'English',
+        },
+        '/en/': {
+          selectLanguageName: 'English',
+        }
       }
     }
-  }
+  )
 });
 

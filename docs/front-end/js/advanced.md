@@ -65,7 +65,5 @@ obj.__proto__ === Object.getPrototypeOf(obj)
 
 ## 继承
 
-###     
-
 ## 事件循环
 
